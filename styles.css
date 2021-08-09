@@ -1,3 +1,22 @@
-body{
-  background-color:pink;
+body {
+  background-color: white;
+}
+
+.navbar-adobe.bg-light {
+  background-color: #fff !important;
+}
+
+.navbar-adobe .dropdown-toggle::after {
+  display: none;
+}
+
+.img-adobe {
+  width: 24px;
+  height: auto;
+}
+
+.navbar-adobe .dropdown-menu {
+  border-radius: 0;
+  left: -12px;
+  width: 100vw;
 }
